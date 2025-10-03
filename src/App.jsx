@@ -11,6 +11,9 @@ function App() {
     <div className="bg-gray-200">
           {/*Navbar section*/ }
           <nav className="shadow-md p-4"> 
+            <div>
+              <Button />
+            </div>
             <ul className="flex justify-evenly ">
               <li><a href="" className="text-blue-500 hover:underline">Home</a></li>
               <li><a href="" className="text-blue-500 hover:underline">Contact</a></li>
@@ -21,9 +24,9 @@ function App() {
           {/*Header section*/ }
           <section className=" p-8">
             <h1 className="text-4xl font-bold text-center"> 
-              Welcome To Porfolio
+              Welcome to My Porfolio
             </h1>
-            <p className="text-lg text-gray-600t text-center ">Build your Tailwind css Site.</p>
+            <p className="text-lg text-gray-600t text-center ">Build with Love.</p>
             <div className="text-center">
               <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-800 transition duration-500 ">
                 Get Started
@@ -34,8 +37,8 @@ function App() {
           <section className="max-w-sm mx-auto shadow-lg rounded-lg p-6">
             <h2 className="text-xl font-semibold mt-3">Project Title</h2>
             <p className="text-gray-600 mt-2  "> A cool project for landing tailwind css</p>
-            <button className="mt-4 px-2 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-8 00 transition duration-500">View Project</button>
-        
+            <button className="mt-4 px-2 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-800 transition duration-500">View Project</button>
+
           </section>
           {/*About me */ }
           <section className="flex flex-col md:flex-row items-center p-8">
@@ -45,18 +48,9 @@ function App() {
             <div className="mt-4 md:mt-0 md:ml-6 text-center md:text-left">
               <h2 className="text-2xl font-bold text-gray-800">About me</h2>
               <p className="text-gray-600 mt-3 text-justify ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aut deserunt esse, pariatur ducimus enim odio voluptas alias non. 
-                Quos eius vel quisquam. Illum optio impedit quis harum aliquid ut aliquam?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus, 
-                officiis mollitia aperiam qui odit maxime, distinctio perferendis,
-                corrupti dicta enim repellat maiores natus cum ab fuga. Qui, commodi reiciendis!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aut deserunt esse, pariatur ducimus enim odio voluptas alias non. 
-                Quos eius vel quisquam. Illum optio impedit quis harum aliquid ut aliquam?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus, 
-                officiis mollitia aperiam qui odit maxime, distinctio perferendis,
-                corrupti dicta enim repellat maiores natus cum ab fuga. Qui, commodi reiciendis!
+                My self Naveen shukla enthusiastic learner and developer.
+                I am passionate about coding and love to create beautiful and functional web applications.
+                I have experience in HTML, CSS, JavaScript, and React. I enjoy problem-solving and continuously learning new technologies.s
               </p>
             <div className="mt-4">
                 <span className="inline-block bg-blue-200 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">HTML</span>
